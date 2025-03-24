@@ -1,0 +1,661 @@
+Internal Server Error: /api/evaluations/
+"POST /api/evaluations/ HTTP/1.1" 500 86
+Internal Server Error: /api/auth/register/
+"POST /api/auth/register/ HTTP/1.1" 500 136
+Internal Server Error: /api/evaluations
+Traceback (most recent call last):
+  File "/home/cheikh/Bureau/IABD2/BD/app/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cheikh/Bureau/IABD2/BD/app/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cheikh/Bureau/IABD2/BD/app/venv/lib/python3.12/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cheikh/Bureau/IABD2/BD/app/venv/lib/python3.12/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PATCH, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PATCH data. Change your form to point to 127.0.0.1:8000/api/evaluations/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"PATCH /api/evaluations HTTP/1.1" 500 72515
+Internal Server Error: /api/evaluations/1
+Traceback (most recent call last):
+  File "/home/cheikh/Bureau/IABD2/BD/app/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cheikh/Bureau/IABD2/BD/app/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cheikh/Bureau/IABD2/BD/app/venv/lib/python3.12/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cheikh/Bureau/IABD2/BD/app/venv/lib/python3.12/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to 127.0.0.1:8000/api/evaluations/1/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"PUT /api/evaluations/1 HTTP/1.1" 500 72517
+Internal Server Error: /api/reponses/1
+Traceback (most recent call last):
+  File "/home/cheikh/Bureau/IABD2/BD/app/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cheikh/Bureau/IABD2/BD/app/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cheikh/Bureau/IABD2/BD/app/venv/lib/python3.12/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cheikh/Bureau/IABD2/BD/app/venv/lib/python3.12/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/api/reponses/1/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"POST /api/reponses/1 HTTP/1.1" 500 72483
+Internal Server Error: /api/auth/register/
+"POST /api/auth/register/ HTTP/1.1" 500 136
+Internal Server Error: /api/auth/register/
+"POST /api/auth/register/ HTTP/1.1" 500 136
+Internal Server Error: /api/auth/register/
+"POST /api/auth/register/ HTTP/1.1" 500 89
+Internal Server Error: /api/evaluations
+Traceback (most recent call last):
+  File "C:\Users\DELL\Documents\DIC2\Semestre 1\BD\Projet\Backend\mon_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\Documents\DIC2\Semestre 1\BD\Projet\Backend\mon_env\Lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\Documents\DIC2\Semestre 1\BD\Projet\Backend\mon_env\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\Documents\DIC2\Semestre 1\BD\Projet\Backend\mon_env\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8001/api/evaluations/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"POST /api/evaluations HTTP/1.1" 500 79360
+Internal Server Error: /api/evaluations
+Traceback (most recent call last):
+  File "C:\Users\DELL\Documents\DIC2\Semestre 1\BD\Projet\Backend\mon_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\Documents\DIC2\Semestre 1\BD\Projet\Backend\mon_env\Lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\Documents\DIC2\Semestre 1\BD\Projet\Backend\mon_env\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\Documents\DIC2\Semestre 1\BD\Projet\Backend\mon_env\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8001/api/evaluations/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"POST /api/evaluations HTTP/1.1" 500 79369
+Internal Server Error: /api/evaluations
+Traceback (most recent call last):
+  File "C:\Users\DELL\Documents\DIC2\Semestre 1\BD\Projet\Backend\mon_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\Documents\DIC2\Semestre 1\BD\Projet\Backend\mon_env\Lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\Documents\DIC2\Semestre 1\BD\Projet\Backend\mon_env\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\Documents\DIC2\Semestre 1\BD\Projet\Backend\mon_env\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8001/api/evaluations/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"POST /api/evaluations HTTP/1.1" 500 79373
+Internal Server Error: /api/reponses/
+"POST /api/reponses/ HTTP/1.1" 500 162
+Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\backends\mysql\base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\MySQLdb\cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\MySQLdb\cursors.py", line 330, in _query
+    db.query(q)
+    ~~~~~~~~^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\MySQLdb\connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+MySQLdb.ProgrammingError: (1146, "Table 'evaluation_db.core_user' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\contrib\admin\sites.py", line 444, in login
+    return LoginView.as_view(**defaults)(request)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\views\decorators\debug.py", line 143, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\contrib\auth\views.py", line 89, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\views\generic\edit.py", line 150, in post
+    if form.is_valid():
+       ~~~~~~~~~~~~~^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\forms\forms.py", line 197, in is_valid
+    return self.is_bound and not self.errors
+                                 ^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\forms\forms.py", line 192, in errors
+    self.full_clean()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\forms\forms.py", line 326, in full_clean
+    self._clean_form()
+    ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\forms\forms.py", line 342, in _clean_form
+    cleaned_data = self.clean()
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\contrib\auth\forms.py", line 363, in clean
+    self.user_cache = authenticate(
+                      ~~~~~~~~~~~~^
+        self.request, username=username, password=password
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\views\decorators\debug.py", line 75, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\contrib\auth\__init__.py", line 79, in authenticate
+    user = backend.authenticate(request, **credentials)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\contrib\auth\backends.py", line 42, in authenticate
+    user = UserModel._default_manager.get_by_natural_key(username)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\contrib\auth\base_user.py", line 37, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+           ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\models\query.py", line 645, in get
+    num = len(clone)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\backends\mysql\base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\MySQLdb\cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\MySQLdb\cursors.py", line 330, in _query
+    db.query(q)
+    ~~~~~~~~^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\MySQLdb\connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: (1146, "Table 'evaluation_db.core_user' doesn't exist")
+"POST /admin/login/?next=/admin/ HTTP/1.1" 500 278064
+Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\backends\mysql\base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\MySQLdb\cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\MySQLdb\cursors.py", line 330, in _query
+    db.query(q)
+    ~~~~~~~~^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\MySQLdb\connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+MySQLdb.ProgrammingError: (1146, "Table 'evaluation_db.core_user' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\contrib\admin\sites.py", line 444, in login
+    return LoginView.as_view(**defaults)(request)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\views\decorators\debug.py", line 143, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\contrib\auth\views.py", line 89, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\views\generic\edit.py", line 150, in post
+    if form.is_valid():
+       ~~~~~~~~~~~~~^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\forms\forms.py", line 197, in is_valid
+    return self.is_bound and not self.errors
+                                 ^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\forms\forms.py", line 192, in errors
+    self.full_clean()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\forms\forms.py", line 326, in full_clean
+    self._clean_form()
+    ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\forms\forms.py", line 342, in _clean_form
+    cleaned_data = self.clean()
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\contrib\auth\forms.py", line 363, in clean
+    self.user_cache = authenticate(
+                      ~~~~~~~~~~~~^
+        self.request, username=username, password=password
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\views\decorators\debug.py", line 75, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\contrib\auth\__init__.py", line 79, in authenticate
+    user = backend.authenticate(request, **credentials)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\contrib\auth\backends.py", line 42, in authenticate
+    user = UserModel._default_manager.get_by_natural_key(username)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\contrib\auth\base_user.py", line 37, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+           ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\models\query.py", line 645, in get
+    num = len(clone)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\backends\mysql\base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\MySQLdb\cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\MySQLdb\cursors.py", line 330, in _query
+    db.query(q)
+    ~~~~~~~~^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\MySQLdb\connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: (1146, "Table 'evaluation_db.core_user' doesn't exist")
+"POST /admin/login/?next=/admin/ HTTP/1.1" 500 278064
+Internal Server Error: /api/auth/register
+Traceback (most recent call last):
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+    ...<9 lines>...
+    )
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/api/auth/register/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"POST /api/auth/register HTTP/1.1" 500 74789
+Internal Server Error: /api/auth/register
+Traceback (most recent call last):
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+    ...<9 lines>...
+    )
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/api/auth/register/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"POST /api/auth/register HTTP/1.1" 500 74789
+Internal Server Error: /api/auth/register
+Traceback (most recent call last):
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+    ...<9 lines>...
+    )
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/api/auth/register/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"POST /api/auth/register HTTP/1.1" 500 74789
+Internal Server Error: /api/evaluations/
+"POST /api/evaluations/ HTTP/1.1" 500 52
+Internal Server Error: /api/auth/register/
+"POST /api/auth/register/ HTTP/1.1" 500 69
+Internal Server Error: /api/reponses/
+Traceback (most recent call last):
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\backends\mysql\base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\MySQLdb\cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\MySQLdb\cursors.py", line 331, in _query
+    self._do_get_result(db)
+    ~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\MySQLdb\cursors.py", line 136, in _do_get_result
+    self._result = result = self._get_result()
+                            ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\MySQLdb\cursors.py", line 363, in _get_result
+    return self._get_db().store_result()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+MySQLdb.OperationalError: (1366, "Incorrect string value: '\\xF1\\xBE\\xBC\\xAD\\x00\\xEF...' for column `evaluation_db`.`core_reponsequestion`.`contenu` at row 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\core\views.py", line 639, in create
+    ReponseQuestion.objects.create(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        reponse_eleve=reponse_eleve,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        note=note_question
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\models\query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\models\base.py", line 892, in save
+    self.save_base(
+    ~~~~~~~~~~~~~~^
+        using=using,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        update_fields=update_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\models\base.py", line 998, in save_base
+    updated = self._save_table(
+        raw,
+    ...<4 lines>...
+        update_fields,
+    )
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\models\base.py", line 1161, in _save_table
+    results = self._do_insert(
+        cls._base_manager, using, fields, returning_fields, raw
+    )
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\models\base.py", line 1202, in _do_insert
+    return manager._insert(
+           ~~~~~~~~~~~~~~~^
+        [self],
+        ^^^^^^^
+    ...<3 lines>...
+        raw=raw,
+        ^^^^^^^^
+    )
+    ^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\backends\mysql\base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\MySQLdb\cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\MySQLdb\cursors.py", line 331, in _query
+    self._do_get_result(db)
+    ~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\MySQLdb\cursors.py", line 136, in _do_get_result
+    self._result = result = self._get_result()
+                            ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\MySQLdb\cursors.py", line 363, in _get_result
+    return self._get_db().store_result()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+django.db.utils.OperationalError: (1366, "Incorrect string value: '\\xF1\\xBE\\xBC\\xAD\\x00\\xEF...' for column `evaluation_db`.`core_reponsequestion`.`contenu` at row 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\rest_framework\viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python313\Lib\contextlib.py", line 85, in inner
+    return func(*args, **kwds)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\core\views.py", line 668, in create
+    reponse_eleve.delete()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\models\base.py", line 1273, in delete
+    return collector.delete()
+           ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\models\deletion.py", line 468, in delete
+    count = qs._raw_delete(using=self.using)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\models\query.py", line 1210, in _raw_delete
+    cursor = query.get_compiler(using).execute_sql(CURSOR)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\backends\utils.py", line 99, in _execute
+    self.db.validate_no_broken_transaction()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\db\backends\base\base.py", line 521, in validate_no_broken_transaction
+    raise TransactionManagementError(
+    ...<2 lines>...
+    ) from self.rollback_exc
+django.db.transaction.TransactionManagementError: An error occurred in the current transaction. You can't execute queries until the end of the 'atomic' block.
+"POST /api/reponses/ HTTP/1.1" 500 469303
+Internal Server Error: /api/reponses/1
+Traceback (most recent call last):
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+    ...<9 lines>...
+    )
+RuntimeError: You called this URL via PATCH, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PATCH data. Change your form to point to localhost:8000/api/reponses/1/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"PATCH /api/reponses/1 HTTP/1.1" 500 74087
+Internal Server Error: /api/reponses/1/
+"PATCH /api/reponses/1/ HTTP/1.1" 500 89
+Internal Server Error: /api/reponses/1/
+"PATCH /api/reponses/1/ HTTP/1.1" 500 89
+Internal Server Error: /api/evaluations/2
+Traceback (most recent call last):
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+    ...<9 lines>...
+    )
+RuntimeError: You called this URL via PATCH, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PATCH data. Change your form to point to localhost:8000/api/evaluations/2/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"PATCH /api/evaluations/2 HTTP/1.1" 500 75182
+Internal Server Error: /api/evaluations/2
+Traceback (most recent call last):
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+    ...<9 lines>...
+    )
+RuntimeError: You called this URL via PATCH, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PATCH data. Change your form to point to localhost:8000/api/evaluations/2/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"PATCH /api/evaluations/2 HTTP/1.1" 500 75182
+Internal Server Error: /api/evaluations/2
+Traceback (most recent call last):
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\mouss\Desktop\DIC 2\SGBD\projet\Backend\venv\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+    ...<9 lines>...
+    )
+RuntimeError: You called this URL via PATCH, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PATCH data. Change your form to point to localhost:8000/api/evaluations/2/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"PATCH /api/evaluations/2 HTTP/1.1" 500 75183

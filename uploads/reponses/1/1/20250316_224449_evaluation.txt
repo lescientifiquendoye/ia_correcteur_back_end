@@ -1,0 +1,7 @@
+1. Qu'est-ce que le machine learning (apprentissage automatique) ? (2 pts)
+
+2. Citez deux algorithmes couramment utilisés en machine learning. (3 pts)
+
+3. Quelle est la différence entre l'IA faible et l'IA forte ? (2 pts)
+
+
