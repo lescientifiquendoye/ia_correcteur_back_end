@@ -12,7 +12,10 @@ MEDIA_ROOT = BASE_DIR / 'uploads'  # Dossier où les fichiers médias seront sto
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure--@zjeg9j%9xolp3*6!y#n6i)hku8)#o5n##b*&ty0c#q#*t1cm')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ.get('DJANGO_DEBUG', 'False') 
+DEBUG = os.environ.get('DJANGO_DEBUG', 'true') 
+
+
+PORT = os.getenv("PORT", "8000")
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1',"ia-correcteur-back-end.onrender.com"]
 
