@@ -17,7 +17,7 @@ DEBUG = os.environ.get('DJANGO_DEBUG', 'false')
 
 PORT = os.getenv("PORT", "8000")
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1',"ia-correcteur-back-end.onrender.com"]
+ALLOWED_HOSTS = ['localhost', '127.0.0.1',"ia-correcteur-back-end.onrender.com","https://ia-correcteur-back-end.onrender.com"]
 
 # Application definition
 INSTALLED_APPS = [
