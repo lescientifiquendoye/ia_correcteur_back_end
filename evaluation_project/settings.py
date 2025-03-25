@@ -12,7 +12,7 @@ MEDIA_ROOT = BASE_DIR / 'uploads'  # Dossier où les fichiers médias seront sto
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure--@zjeg9j%9xolp3*6!y#n6i)hku8)#o5n##b*&ty0c#q#*t1cm')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ.get('DJANGO_DEBUG', 'false') 
+DEBUG = os.environ.get('DJANGO_DEBUG','false') 
 
 
 PORT = os.getenv("PORT", "8000")
@@ -143,6 +143,8 @@ CORS_ALLOWED_ORIGINS = [
     "https://ia-correcteur.web.app",
     "https://ia-correcteur-back-end.onrender.com",
 ]
+CSRF_TRUSTED_ORIGINS = ["https://ia-correcteur-back-end.onrender.com"]
+CORS_ALLOW_ALL_ORIGINS = True 
 
 # Logging configuration
 LOGGING = {
