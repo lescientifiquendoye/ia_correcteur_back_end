@@ -137,7 +137,8 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:4200",  # Frontend React
     "http://127.0.0.1:4200",  # Frontend React
     "http://localhost",       # Frontend local
-    "https://ia-correcteur.web.app"
+    "https://ia-correcteur.web.app",
+    "https://ia-correcteur-back-end.onrender.com",
 ]
 
 # Logging configuration
