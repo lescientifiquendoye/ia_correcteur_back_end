@@ -71,10 +71,10 @@ WSGI_APPLICATION = 'evaluation_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': os.environ.get('DB_NAME', 'evaluation_db'),
-        'USER': os.environ.get('DB_USER', 'root'),
-        'PASSWORD': os.environ.get('DB_PASSWORD', 'passer'),
-        'HOST': os.environ.get('DB_HOST', 'localhost'),
+        'NAME': os.environ.get('DB_NAME', 'ndoyestfk_evaluation_db'),
+        'USER': os.environ.get('DB_USER', 'ndoyestfk'),
+        'PASSWORD': os.environ.get('DB_PASSWORD', 'b6xFA2P87B@9Qfn'),
+        'HOST': os.environ.get('DB_HOST', 'mysql-ndoyestfk.alwaysdata.net'),
         'PORT': os.environ.get('DB_PORT', '3306'),
     }
 }
@@ -137,6 +137,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:4200",  # Frontend React
     "http://127.0.0.1:4200",  # Frontend React
     "http://localhost",       # Frontend local
+    "https://ia-correcteur.web.app"
 ]
 
 # Logging configuration
